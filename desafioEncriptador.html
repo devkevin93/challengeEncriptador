@@ -1,4 +1,3 @@
-HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,18 +6,29 @@ HTML
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="programa.css">
     <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <input id="frase"></input>  
-    <button id="encriptar">Encriptar</button>   
-    <input id="resultado"></input> 
-    <button id="desencriptar">Desencriptar</button>  
-
+   
     <header>
         <img src="imagenes/Logo.png">
     </header>
     <main>
-        <img src="imagenes/Muñeco.png">
+        <div class="buttoms">
+            <button id="encriptar">Encriptar</button>
+            <button id="desencriptar">Desencriptar</button>  
+        </div>
+        <div class="imputs">
+            <input id="frase" placeholder="ingrese el texto aqui"></input>  
+           
+            <input id="resultado"></input> 
+        </div>
+              
+        <div class="CajaMuñeco">
+            <img src="imagenes/Muñeco.png">
+        </div>
+        
     </main>
     
 
